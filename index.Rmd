@@ -118,7 +118,11 @@ econ:
 ### Approach
 - Current approaches
 ---
----
+### Nightlights in Bucharest - Evolution!
+
+<img src="images/bucharest_nightlights.gif"
+     height="520px"/>
+ .small[Bucharest VIIRS overtime: 2014-2022]    
 ---
 ---
 ---
