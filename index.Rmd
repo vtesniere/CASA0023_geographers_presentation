@@ -78,4 +78,51 @@ library(fontawesome)
 
 
 ---
+## Bucharest
+
+- really old district boundaries
+- not enough district boundaries
+- communication between sectors is bad --> lit/examples
+
+- Bucharest is a city in transition from its communist past to a market economy
+- Problems: 
+Lack of effective and strictly enforced regulation and public sector indecision
+Problems inherited from the Ceausescu regime, generate many examples of poor urban planning and management
+
+E.g. Văcăreşti “Lake 
+---
+## Examples of bad urban planning in Bucharest
+
+- no unified planning, fragmentation
+- 
+---
+## our aim of the project
+- Change the boundaries
+- expand urban boundaries to enhance urban functionings, quality of life, efficiency
+- what will this contribute: new approach to improve urban planning, 
+- assumption the existing urban planning is changing the boundaries ---> this is new and 
+- provide the current policies in Bucharest(that focus on quality of life through urban planning) and say we want to have a novel approach 
+- healthy cities SDGs
+
+---
+##Aim of the project2
+- quality of life
+- examples of how poorly planned cities affect quality of life
+- examples of how good cities planning affect quality of life
+- Remote sensing is not often used for uQOL
+- importance: why quality of life is important, and why district boundaries affect uQOL?
+- picture of the uQOL indicator
+social: social care, healthcare
+econ: 
+---
+### Approach
+---
+---
+---
+---
+---
+---
+---
+---
+
 
