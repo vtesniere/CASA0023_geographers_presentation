@@ -122,7 +122,7 @@ econ:
 
 <img src="images/bucharest_nightlights.gif"
      height="520px"/>
- .small[Bucharest VIIRS overtime: 2014-2022]    
+ .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
 ---
 ---
