@@ -124,7 +124,25 @@ econ:
      height="520px"/>
  .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
+
+### Approach
+
+
+```{r include=FALSE}
+data1<-read.csv('assets/data.csv')
+```
+```{r include=FALSE}
+library(dplyr)
+```
+```{r echo=FALSE}
+data1%>%
+  knitr::kable(format = "html")
+```
+
 ---
+### model
+<img src="images/model.png"
+     height="520px"/>
 ---
 ---
 ---
