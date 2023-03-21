@@ -3,6 +3,14 @@
   color: white;
 }
 
+.space{
+  line-height: 2em;
+}
+
+.bigger{
+  font-size: 1.8em;  
+}
+
 .center2 {
   margin: 0;
   position: absolute;
