@@ -79,7 +79,7 @@ library(fontawesome)
 ---
 class: center
 background-size: cover
-## Bucharest
+## Background of Bucharest
 
 - really old district boundaries
 - not enough district boundaries
@@ -90,18 +90,26 @@ background-size: cover
 Lack of effective and strictly enforced regulation and public sector indecision
 Problems inherited from the Ceausescu regime, generate many examples of poor urban planning and management
 
-E.g. Văcăreşti “Lake 
+
 ---
 class: center,
 background-size: cover
 ## Examples of bad urban planning in Bucharest
 
 - no unified planning, fragmentation
-- 
+- E.g. Văcăreşti “Lake 
 ---
-class: center
+class: center, left
 background-size: cover
-## Why is
+## Why is redefining sector boundaries 
+```{r echo=FALSE, results='asis', out.wodthecho=FALSE}
+xfun::file_string('sector_history.html')
+```
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('images/transformation.png')
+```
+
 ---
 class: center
 background-size: cover
