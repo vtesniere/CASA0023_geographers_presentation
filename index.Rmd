@@ -50,7 +50,7 @@ xaringanExtra::use_extra_styles(
 
 class: center, title-slide, middle
 
-background-image: url("img/CASA_Logo_no_text_trans_17.png")
+background-image: url("images/base2.png")
 background-size: cover
 background-position: center
 
@@ -66,10 +66,9 @@ library(fontawesome)
 
 # Improving urban quality of life in Bucharest
 
-### An analysis of urban structuring and administrative division adjustments using remotely sensed data
+## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
-`r fa("paper-plane", fill = "#562457")` [stnvvrt@ucl.ac.uk](mailto:stnvvrt@ucl.ac.uk)
-`r fa("github", fill = "#562457")` [vtesniere](https://github.com/vtesniere)
+
 `r fa("location-dot", fill = "#562457")` [Department of Geography](https://www.geog.ucl.ac.uk/) .my-style[&] [Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)
 
 
@@ -78,7 +77,9 @@ library(fontawesome)
 
 
 ---
-## Bucharest
+class: center
+background-size: cover
+## Background of Bucharest
 
 - really old district boundaries
 - not enough district boundaries
@@ -89,13 +90,29 @@ library(fontawesome)
 Lack of effective and strictly enforced regulation and public sector indecision
 Problems inherited from the Ceausescu regime, generate many examples of poor urban planning and management
 
-E.g. Văcăreşti “Lake 
+
 ---
+class: center,
+background-size: cover
 ## Examples of bad urban planning in Bucharest
 
 - no unified planning, fragmentation
-- 
+- E.g. Văcăreşti “Lake 
 ---
+class: center, left
+background-size: cover
+## Why is redefining sector boundaries 
+```{r echo=FALSE, results='asis', out.wodthecho=FALSE}
+xfun::file_string('sector_history.html')
+```
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('images/transformation.png')
+```
+
+---
+class: center
+background-size: cover
 ## our aim of the project
 - Change the boundaries
 - expand urban boundaries to enhance urban functioning, quality of life, efficiency
@@ -105,6 +122,8 @@ E.g. Văcăreşti “Lake
 - healthy cities SDGs
 
 ---
+class: center
+background-size: cover
 ##Aim of the project2
 - quality of life
 - examples of how poorly planned cities affect quality of life
@@ -115,16 +134,21 @@ E.g. Văcăreşti “Lake
 social: social care, healthcare
 econ: 
 ---
+class: center
+background-size: cover
 ### Approach
 - Current approaches
 ---
+class: center
+background-size: cover
 ### Nightlights in Bucharest - Evolution!
 
 <img src="images/bucharest_nightlights.gif"
      height="520px"/>
  .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
-
+class: center
+background-size: cover
 # Approach
 ### data
 .milieu3[
@@ -139,43 +163,57 @@ data1%>%
 ```
 ]
 ---
+<<<<<<< HEAD
 # Workflow
 <img src="images/model.png"/>
+=======
+class: center
+background-size: cover
+### model
+<img src="images/model.png"
+     height="520px"/>
+>>>>>>> 921ab2b6ff5c1dc560139212bc245e1ed56cf7b7
 ---
-class: inverse, center, middle
+class: center, middle
 
 # Project plan and timeline - 4 month plan
 
 ---
-class: inverse, center, middle
+class:  center, middle
 
 ## Collect data
 
 --
-
+class: center
+background-size: cover
 ### ↓
 
 ## Refine Focus
 
 --
-
+class: center
+background-size: cover
 ### ↓
 
 ## Understand population and City needs
 
 --
-
+class: center
+background-size: cover
 ### ↓
 
 ## Modelling
 
 --
-
+class: center
+background-size: cover
 ### ↓
 
 ## Boundary validation 
 
 ---
+class: center
+background-size: cover
 # Project Plan Breakdown
 
 .space[.panelset[
@@ -233,6 +271,8 @@ class: inverse, center, middle
 ]
 ]
 ---
+class: center
+background-size: cover
 # Cost Breakdown - Value for money
 
 .center[
@@ -257,6 +297,8 @@ knitr::include_graphics("images/costs.png")
 
 ]
 ---
+class: center
+background-size: cover
 # Limitation, Risks and Migitations
 
 .space[.panelset[
@@ -293,6 +335,8 @@ knitr::include_graphics("images/costs.png")
 ]
 ]
 ---
+class: center
+background-size: cover
 # Future work and contributions
 
 .space[
