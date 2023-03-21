@@ -116,13 +116,36 @@ social: social care, healthcare
 econ: 
 ---
 ### Approach
+- Current approaches
 ---
----
----
----
----
----
----
+### Nightlights in Bucharest - Evolution!
+
+<img src="images/bucharest_nightlights.gif"
+     height="520px"/>
+ .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
 
+### Approach
+
+
+```{r include=FALSE}
+data1<-read.csv('assets/data.csv')
+```
+```{r include=FALSE}
+library(dplyr)
+```
+```{r echo=FALSE}
+data1%>%
+  knitr::kable(format = "html")
+```
+
+---
+### model
+<img src="images/model.png"
+     height="520px"/>
+---
+---
+---
+---
+---
 
