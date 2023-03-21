@@ -1,6 +1,8 @@
 .my-style {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: white;
+  text-shadow: 2px 1px 0 #FF7F50;
+  
 }
 
 .space{
@@ -58,9 +60,17 @@
   position: absolute;
 }
 
-.title-slide h1{
+.title-slide h1, h2{
     color: white;
-    text-shadow: 4px 3px 0 #7A7A7A;
+    text-shadow: 2px 1px 0 #FF8C00;
 }
 
-.
+
+.link-style1 a {
+  font-size: 3em
+  color: black;
+  text-decoration: underline;
+}
+
+
+
