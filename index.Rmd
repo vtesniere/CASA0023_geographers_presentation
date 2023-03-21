@@ -50,7 +50,7 @@ xaringanExtra::use_extra_styles(
 
 class: center, title-slide, middle
 
-background-image: url("img/CASA_Logo_no_text_trans_17.png")
+background-image: url("images/base2.png")
 background-size: cover
 background-position: center
 
@@ -66,10 +66,9 @@ library(fontawesome)
 
 # Improving urban quality of life in Bucharest
 
-### An analysis of urban structuring and administrative division adjustments using remotely sensed data
+## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
-`r fa("paper-plane", fill = "#562457")` [stnvvrt@ucl.ac.uk](mailto:stnvvrt@ucl.ac.uk)
-`r fa("github", fill = "#562457")` [vtesniere](https://github.com/vtesniere)
+
 `r fa("location-dot", fill = "#562457")` [Department of Geography](https://www.geog.ucl.ac.uk/) .my-style[&] [Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)
 
 
