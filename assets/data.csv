@@ -1,4 +1,4 @@
-Urban_quality_of_life_indicators,What_data_is_shown,Sensors,Spatial_resolution
+Reference to UQoL indicators,What data,Sensors,Spatial resolution
 Showing Economic activity,"GDP/
 nighttime",Sentinel 5,7 km
 Showing social activity ,Population density,MODIS,"250m, 500m"

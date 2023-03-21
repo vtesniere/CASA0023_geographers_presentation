@@ -126,10 +126,11 @@ econ:
 ---
 
 # Approach
-
+### data
 .milieu3[
 ```{r include=FALSE}
-data1<-read.csv('assets/data.csv')
+data1<-read.csv(file = 'assets/data.csv',header = TRUE)
+colnames(data1) <- c('Reference to UQoL indicators', 'What data','Sensors','Spatial resolution')
 library(dplyr)
 ```
 ```{r echo=FALSE}
@@ -138,9 +139,8 @@ data1%>%
 ```
 ]
 ---
-### model
-<img src="images/model.png"
-     height="520px"/>
+# Workflow
+<img src="images/model.png"/>
 ---
 class: inverse, center, middle
 
