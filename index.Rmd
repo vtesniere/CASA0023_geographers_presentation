@@ -163,10 +163,11 @@ background-size: cover
 class: center
 background-size: cover
 # Approach
-
+### data
 .milieu3[
 ```{r include=FALSE}
-data1<-read.csv('assets/data.csv')
+data1<-read.csv(file = 'assets/data.csv',header = TRUE)
+colnames(data1) <- c('Reference to UQoL indicators', 'What data','Sensors','Spatial resolution')
 library(dplyr)
 ```
 ```{r echo=FALSE}
@@ -175,11 +176,16 @@ data1%>%
 ```
 ]
 ---
+<<<<<<< HEAD
+# Workflow
+<img src="images/model.png"/>
+=======
 class: center
 background-size: cover
 ### model
 <img src="images/model.png"
      height="520px"/>
+>>>>>>> 921ab2b6ff5c1dc560139212bc245e1ed56cf7b7
 ---
 class: center, middle
 
