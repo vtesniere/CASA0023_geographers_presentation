@@ -69,7 +69,7 @@ library(fontawesome)
 ## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
 
-`r fa("location-dot", fill = "#562457")` [Department of Geography](https://www.geog.ucl.ac.uk/) .my-style[&] [Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)
+`r fa("location-dot", fill = "#FF8C00")` .link-style1[[Department of Geography](https://www.geog.ucl.ac.uk/)] .my-style[&] .link-style1[[Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)]
 
 
 
@@ -79,7 +79,7 @@ library(fontawesome)
 ---
 class: center
 background-size: cover
-## Background of Bucharest
+# Background of Bucharest
 
 - really old district boundaries
 - not enough district boundaries
@@ -94,14 +94,14 @@ Problems inherited from the Ceausescu regime, generate many examples of poor urb
 ---
 class: center,
 background-size: cover
-## Examples of bad urban planning in Bucharest
+# Examples of bad urban planning in Bucharest
 
 - no unified planning, fragmentation
 - E.g. Văcăreşti “Lake 
 ---
 class: center, left
 background-size: cover
-## Why is redefining sector boundaries 
+# Sector changes in history
 ```{r echo=FALSE, results='asis', out.wodthecho=FALSE}
 xfun::file_string('sector_history.html')
 ```
@@ -109,11 +109,24 @@ xfun::file_string('sector_history.html')
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('images/transformation.png')
 ```
+---
+class: center, left
+# Why is redefining sector boundaries useful for improving uQOL?
+-Previous social, economic and political changes made Romania vulnerable and inconsistent in land use planning legislation
+  → Voiding previous land use planning laws
+  → Failing to replace with adequate new system 
+  → Retaining a flawed land use system and create problems
+  → fragmentation of society of contesting groups of self-interested citizens (Ianoş, Sorensen and Merciu, 2017)
+ 
+ 
+→in Current sectors  without any regard for actual demography, but just to be equal
+→ did not consider the urban functioning, quality of life 
+→ Current sector boundaries are outdated for the rapid urban expansions a
 
 ---
 class: center
 background-size: cover
-## our aim of the project
+# our aim of the project
 - Change the boundaries
 - expand urban boundaries to enhance urban functioning, quality of life, efficiency
 - what will this contribute: new approach to improve urban planning, 
@@ -124,7 +137,7 @@ background-size: cover
 ---
 class: center
 background-size: cover
-##Aim of the project2
+#Aim of the project2
 - quality of life
 - examples of how poorly planned cities affect quality of life
 - examples of how good cities planning affect quality of life
