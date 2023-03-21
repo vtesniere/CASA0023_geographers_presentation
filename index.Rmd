@@ -98,7 +98,7 @@ E.g. Văcăreşti “Lake
 ---
 ## our aim of the project
 - Change the boundaries
-- expand urban boundaries to enhance urban functionings, quality of life, efficiency
+- expand urban boundaries to enhance urban functioning, quality of life, efficiency
 - what will this contribute: new approach to improve urban planning, 
 - assumption the existing urban planning is changing the boundaries ---> this is new and 
 - provide the current policies in Bucharest(that focus on quality of life through urban planning) and say we want to have a novel approach 
@@ -125,24 +125,137 @@ econ:
  .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
 
-### Approach
+# Approach
 
-
+.milieu3[
 ```{r include=FALSE}
 data1<-read.csv('assets/data.csv')
-```
-```{r include=FALSE}
 library(dplyr)
 ```
 ```{r echo=FALSE}
 data1%>%
   knitr::kable(format = "html")
 ```
-
+]
 ---
 ### model
 <img src="images/model.png"
      height="520px"/>
+---
+class: inverse, center, middle
+
+# Project plan and timeline - 4 month plan
+
+---
+class: inverse, center, middle
+
+## Collect data
+
+--
+
+### ↓
+
+## Refine Focus
+
+--
+
+### ↓
+
+## Understand population and City needs
+
+--
+
+### ↓
+
+## Modelling
+
+--
+
+### ↓
+
+## Boundary validation 
+
+---
+# Project Plan Breakdown
+
+.space[.panelset[
+.panel[ .panel-name[**Month 1**]
+<br/>
+- Collecting data
+
+- Leading population surveys to understand their perspectives
+
+- Preliminary council meetings
+
+- Refine focus and what is important to ensure needs are met 
+
+]
+.panel[ .panel-name[**Month 2**]
+<br/>
+- Pilot study
+
+- Preliminary modelling
+
+- Continuous discussion with the city council
+
+]
+.panel[ .panel-name[**Month 3**]
+<br/>
+- Carry out modelling across the whole city
+
+- Continuous discussion with the city council
+
+]
+.panel[ .panel-name[**Month 4**]
+<br/>
+- Finalise plans
+
+- Validate boundaries
+
+- Provide full output production 
+
+]
+.panel[ .panel-name[**Further Steps**]
+
+- Quarterly surveys for 3 years to understand:
+
+  - How local population react to the new boundaries/districts
+
+  - If implementation of policies and communication between district has become better
+
+- If the project is not completed within 4 months the timeline can be extended to accommodate this 
+
+- If implementation successful, we can use framework for use in other cities
+
+  - provides reproducible modelling and output which, when adapted, can benefit other cities
+
+]
+]
+]
+---
+# Cost Breakdown - Value for money
+
+.center[
+```{r, echo=FALSE, out.width="65%"}
+knitr::include_graphics("images/costs.png")
+```
+].small.center[**Breakdown of Costs for the project**]
+
+.pull-left[
+- Understanding the population’s needs
+- Open source data 
+- Return on investment - one time cost of data analysis
+- Using [Worldview](https://aws.amazon.com/marketplace/pp/prodview-h7qawudun3pcw?sr=0-70&ref_=beagle&applicationId=AWSMPContessa#offers) for Bucharest Demographic
+
+]
+
+.pull-right[
+- Low overall costs and benefit of better resource management
+  - Savings on future urban development
+  - Improved health and well-being 
+- Higher quality of life can increase investment and economic value   
+
+]
 ---
 # Limitation, Risks and Migitations
 
@@ -180,6 +293,24 @@ data1%>%
 ]
 ]
 ---
+# Future work and contributions
+
+.space[
+
+- After trial period (1 year) restults are estimated to start appearing
+  - If successful **can be applied to other cities !**
+
+- Incorporated into SDG's healthy cities and healthy lives framework
+
+- **Further analysis possible:**
+
+  - time series could be incorporated to allow for prediction of urban growth
+  - record where boundaries might need to be in the future
+  - using framework in other countries/cities with **similar characteristics**
+  
+- Anticipate urban growth and change
+
+]
 ---
 ---
 ---

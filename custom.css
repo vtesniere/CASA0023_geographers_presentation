@@ -41,6 +41,15 @@
   position: absolute;
 }
 
+.milieu3{
+  top: 27%;
+  left: 10%;
+  right: 10%;
+  position: absolute;
+  margin: 20;
+  transform: translate(0%, 0%);
+}
+
 .low {
   top: 75%;
   right: 48%;
