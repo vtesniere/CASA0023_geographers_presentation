@@ -255,10 +255,76 @@ data1%>%
 ```
 ]
 ---
+# Approach2
+- Current approaches
+
+<img src="images/approach.png"
+     height="550px"/>
+ .small[approach]
+---
 # Workflow
 
 <img src="images/model.png"
      height="520px"/>
+
+---
+# Output of approaches
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+.panelset[
+.panel[.panel-name[Land cover type]
+
+```{r echo=FALSE}
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+```
+
+
+.pull-left[
+    <img src="images/Bucharest_land_cover.png" height="300px"/>
+    Land cover type of Bucharest
+    
+]
+
+.pull-right[
+- This is a map of land cover distribution in Bucharest obtained using random forest created by GEE.
+
+- The map clearly distinguishes between urban areas, water bodies, green spaces and other land types, but whether the model is accurate or not, we can use confusion matrix to validate. 
+
+- Furthermore, if this machine learning model is not accurate, a local survey can also be conducted to determine the urban boundary.
+]
+]
+
+.panel[.panel-name[Cluster map]
+
+.pull-left[
+
+- It is important to determine the weight of each index, The function is below:
+
+
+$$I = W_1*NDVI + W_2*NDWI + W_3*NDBI + {...}$$
+
+
+- Based on this composite index, we can generate a cluster map, the input data is index for each sampled point, here, a number of clusters are obtained, with the smallest possible distance within clusters and the largest possible distance between clusters, so that land cover types of land can be distinguished clearly.
+
+- Here is an output example of this model:
+
+]
+
+.pull-right[
+
+Cluster a: urban area, Cluster b: water, 
+Cluster c: bare earth
+
+  <img src="images/cluster_example.png" height="250px"/>
+  Cluster_example
+  
+]
+]
+
+]
 
 ---
 class: center, middle
