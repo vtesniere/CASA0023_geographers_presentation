@@ -4,7 +4,9 @@
   text-shadow: 2px 1px 0 #FF7F50;
   
 }
-
+.smallspace{
+  line-height: 1.5em;
+}
 .space{
   line-height: 2em;
 }
@@ -14,7 +16,7 @@
 }
 
 .medium{
-  font-size: 1.4em;  
+  font-size: 1.3em;  
 }
 .center2 {
   margin: 0;
@@ -30,9 +32,14 @@
 .small {
   font-size: 70%;
   line-height: 100%;
-
 }
 
+.smallcenter{
+  font-size: 70%;
+  line-height: 100%;
+  left:28%;
+  position: absolute;
+}
 .milieu {
   top: 25%;
   margin: 0;
@@ -71,7 +78,7 @@
 
 .link-style1 a {
   font-size: 3em
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
