@@ -69,7 +69,7 @@ library(fontawesome)
 ## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
 
-`r fa("location-dot", fill = "black")` [<span style="color: black">**Department of Geography**</span>](https://www.geog.ucl.ac.uk/) .my-style[&] [<span style="color: black">**Center for Advanced Spatial Analysis**</span>](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
+`r fa("location-dot", fill = "white")` [<span style="color:white;text-shadow: -1px -1px orange, 1px 1px orange">**Department of Geography**</span>](https://www.geog.ucl.ac.uk/) .my-style[&] [<span style="color:white;text-shadow: -1px -1px orange, 1px 1px orange">**Center for Advanced Spatial Analysis**</span>](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
 
 
 
@@ -164,17 +164,15 @@ Previous social, economic and political changes made Romania vulnerable and inco
 .pull-right[
 .orange[Demographic and functional discontinuities: gated communities]
 
-```{r echo=FALSE, out.width='90%', fig.align='center'}
-knitr::include_graphics('images/problems.png')
 
+```{r echo=FALSE, out.width='90%', fig.align='center', fig.cap= "New residential quarters (built after 1990); 2. New residential areas; 3. City boundaries; 4. Boundaries of the current administrative sectors"}
+knitr::include_graphics('images/problems.png')
 ```
 ]
 ---
 class: left
 # How can redefining sectorial boundaries improve uQOL?
-.pull-left[
-
-```{r echo=FALSE, out.height=400, out.width=600, fig.align='left'}
+.pull-left[```{r echo=FALSE, out.height=400, out.width=600, fig.align='left'}
 knitr::include_graphics('https://www.mdpi.com/urbansci/urbansci-02-00073/article_deploy/html/images/urbansci-02-00073-g001.png')
 ```
 .small[The physical and social spheres associated with [quality of life and inclusive place](https://www.mdpi.com/2413-8851/2/3/73) in a neighbourhood]
