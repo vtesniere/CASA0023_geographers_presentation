@@ -69,7 +69,7 @@ library(fontawesome)
 ## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
 
-`r fa("location-dot", fill = "#FF8C00")` .link-style1[[Department of Geography](https://www.geog.ucl.ac.uk/)] .my-style[&] .link-style1[[Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)]
+`r fa("location-dot", fill = "black")` [<span style="color: black">**Department of Geography**</span>](https://www.geog.ucl.ac.uk/) .my-style[&] [<span style="color: black">**Center for Advanced Spatial Analysis**</span>](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
 
 
 
@@ -95,10 +95,10 @@ background-size: cover
 
 
 ---
-background-size: cover
 # Examples of bad urban planning in Bucharest
 
-- **No unified planning, fragmentated communcation**
+.panelset[
+.panel[ .panel-name[**No unified planning, fragmented communication**]
 
 - Văcăreşti “Lake” ([Ianos et al., 2017](https://www.sciencedirect.com/science/article/pii/S026483771630374X)) illustrates the effects of negligent communication between government authorities (local, metropolitan and national)
 - Leads to projects that are **unfinished** and **inconsistent** with contemporary development needs 
@@ -108,14 +108,32 @@ background-size: cover
 - Now abandoned by the Romanian Government 
   → became swampland and sparsely vegetated area 
 ]]
-
 .pull-right[
 ```{r echo=FALSE, out.width="70%"}
 knitr::include_graphics("images/bucharest_nonsensical.png")
 ```
 
-.small[Understading why [Bucharest Planning](https://www.sciencedirect.com/science/article/pii/S026483771630374X) is innefficient]
+.small[Understading why [Bucharest Planning](https://www.sciencedirect.com/science/article/pii/S026483771630374X) is inefficient]
 ]
+
+.panel[ .panel-name[**Evidence of bad planning**]
+
+.pull-left[
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/planned_vacaresti.png")
+```
+
+.small[Plan of what the Vacaresti reservoir was supposed to look like]
+]
+.pull-right[
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/vacaresti_now.png")
+```
+
+.small[Real image of what Vacaresti looks like currently]
+]
+]
+]]
 
 ---
 class: center, left
@@ -255,8 +273,7 @@ data1%>%
 ```
 ]
 ---
-# Approach2
-- Current approaches
+# Approach - continued
 
 <img src="images/approach.png"
      height="550px"/>
@@ -401,15 +418,10 @@ background-size: cover
 .panel[ .panel-name[**Further Steps**]
 
 - Quarterly surveys for 3 years to understand:
-
   - How local population react to the new boundaries/districts
-
   - If implementation of policies and communication between district has become better
-
 - If the project is not completed within 4 months the timeline can be extended to accommodate this 
-
 - If implementation successful, we can use framework for use in other cities
-
   - provides reproducible modelling and output which, when adapted, can benefit other cities
 
 ]
@@ -503,6 +515,28 @@ knitr::include_graphics("images/costs.png")
 
 ]
 ---
+# References
+
+- Săgeată, R., Institute of Geography, Romanian Academy, Bucharest, Romania, rsageata@gmail.com", and Radu Săgeată. ‘A Proposal for a New Administrative-Territorial Outline of Bucharest-Based in-City Discontinuities’. Transylvanian Review of Administrative Sciences, no. 56E (28 February 2019): 77–96. https://doi.org/10.24193/tras.56E.5.
+
+- Alpopi, Cristina, Ștefan-Gabriel Burcea, and Ruxandra-Irina Popescu. ‘ANALYSIS OF URBAN PLANNING IN BUCHAREST. CURRENT AND FUTURE CHALLENGES’, 2021.
+
+- Cabrera-Barona, Pablo F., and Helena Merschdorf. ‘A Conceptual Urban Quality Space-Place Framework: Linking Geo-Information and Quality of Life’. Urban Science 2, no. 3 (September 2018): 73. https://doi.org/10.3390/urbansci2030073.
+
+- Ianoş, Ioan, Anthony Sorensen, and Cristina Merciu. ‘Incoherence of Urban Planning Policy in Bucharest: Its Potential for Land Use Conflict’. Land Use Policy 60 (1 January 2017): 101–12. https://doi.org/10.1016/j.landusepol.2016.10.030.
+
+- Lazar, A. M., I. F. Dana Negula, C. Moise, F. Dediu, C. E. Mihalache, and A. Badea. ‘ANALYSIS OF BUCHAREST URBAN DEVELOPMENT BASED ON MULTITEMPORAL SATELLITE-DERIVED DATASETS AND STATISTICAL DATA’. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLIII-B3-2022 (30 May 2022): 641–48. https://doi.org/10.5194/isprs-archives-XLIII-B3-2022-641-2022.
+
 ---
----
+
+# References - Continued
+
+- Nistor, Constantin, Marina Vîrghileanu, Irina Cârlan, Bogdan-Andrei Mihai, Liviu Toma, and Bogdan Olariu. ‘Remote Sensing-Based Analysis of Urban Landscape Change in the City of Bucharest, Romania’. Remote Sensing 13, no. 12 (January 2021): 2323. https://doi.org/10.3390/rs13122323.
+
+- Romice, Ombretta, Kevin Thwaites, Sergio Porta, Mark Greaves, Gordon Barbour, and Paola Pasino. ‘Urban Design and Quality of Life’. In Handbook of Environmental Psychology and Quality of Life Research, edited by Ghozlane Fleury-Bahi, Enric Pol, and Oscar Navarro, 241–73. International Handbooks of Quality-of-Life. Cham: Springer International Publishing, 2017. https://doi.org/10.1007/978-3-319-31416-7_14.
+
+- Serag El Din, Hamam, Ahmed Shalaby, Hend Elsayed Farouh, and Sarah A. Elariane. ‘Principles of Urban Quality of Life for a Neighborhood’. HBRC Journal 9, no. 1 (1 April 2013): 86–92. https://doi.org/10.1016/j.hbrcj.2013.02.007.
+
+- Stoica, Ilinca-Valentina, Daniela Zamfir, and Marina Vîrghileanu. ‘Evaluating the Territorial Impact of Built-Up Area Expansion in the Surroundings of Bucharest (Romania) through a Multilevel Approach Based on Landsat Satellite Imagery’. Remote Sensing 13, no. 19 (January 2021): 3969. https://doi.org/10.3390/rs13193969.
+
 
