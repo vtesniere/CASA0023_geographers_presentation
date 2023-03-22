@@ -32,7 +32,7 @@
     <script src="libs/tile-view/tile-view.js"></script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xfb0bab8f18242918345e20b94304c10","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x5c71d942d524e46afec0d7487834041","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
     <script src="libs/editable/editable.js"></script>
@@ -75,7 +75,7 @@ background-position: center
 ## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
 
-<svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg> [&lt;span style="color: black"&gt;**Department of Geography**&lt;/span&gt;](https://www.geog.ucl.ac.uk/) .my-style[&amp;] [&lt;span style="color: black"&gt;**Center for Advanced Spatial Analysis**&lt;/span&gt;](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
+<svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg> [&lt;span style="color:white;text-shadow: -1px -1px orange, 1px 1px orange"&gt;**Department of Geography**&lt;/span&gt;](https://www.geog.ucl.ac.uk/) .my-style[&amp;] [&lt;span style="color:white;text-shadow: -1px -1px orange, 1px 1px orange"&gt;**Center for Advanced Spatial Analysis**&lt;/span&gt;](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
 
 
 
@@ -179,12 +179,13 @@ Previous social, economic and political changes made Romania vulnerable and inco
 .medium[
   - Voiding previous land use planning laws
 - Failing to replace with adequate new system 
-- Retaining a flawed land use system and create problems
-- fragmentation of society of contesting groups of self-interested citizens ]
+- Retaining a flawed land use system 
+- fragmentation of society into contesting groups of self-interested citizens ]
 (Ianoş, Sorensen and Merciu, 2017) ]
---
+
 .pull-right[
 .orange[Demographic and functional discontinuities: gated communities]
+
 
 &lt;img src="images/problems.png" width="90%" style="display: block; margin: auto;" /&gt;
 ]
@@ -192,7 +193,6 @@ Previous social, economic and political changes made Romania vulnerable and inco
 class: left
 # How can redefining sectorial boundaries improve uQOL?
 .pull-left[
-
 &lt;img src="https://www.mdpi.com/urbansci/urbansci-02-00073/article_deploy/html/images/urbansci-02-00073-g001.png" width="600" height="400" style="display: block; margin: auto auto auto 0;" /&gt;
 .small[The physical and social spheres associated with [quality of life and inclusive place](https://www.mdpi.com/2413-8851/2/3/73) in a neighbourhood]
 ]
@@ -268,7 +268,7 @@ background-size: cover
      height="520px"/&gt;
  .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
-class: center
+class: left
 background-size: cover
 # Approach
 ### data
@@ -321,7 +321,7 @@ Sentinel 5 &lt;/td&gt;
 &lt;/table&gt;
 ]
 ---
-# Approach - continued
+# Approach 2
 
 &lt;img src="images/approach.png"
      height="550px"/&gt;
@@ -362,24 +362,18 @@ Sentinel 5 &lt;/td&gt;
 
 .pull-left[
 
-- It is important to determine the weight of each index, The function is below:
+- We can use NDVI or temperature or Population density index to apply city clustering algorithm (ISODATA algorithm), then generate a cluster map. Based on this, we can know what category a sample point has been classified into, and return back to map. We can determine the boundaries of the city
 
-
-`$$I = W_1*NDVI + W_2*NDWI + W_3*NDBI + {...}$$`
-
-
-- Based on this composite index, we can generate a cluster map, the input data is index for each sampled point, here, a number of clusters are obtained, with the smallest possible distance within clusters and the largest possible distance between clusters, so that land cover types of land can be distinguished clearly.
-
-- Here is an output example of this model:
-
+-Here is an output example of ISODATA cluster map:
 ]
+
 
 .pull-right[
 
 Cluster a: urban area, Cluster b: water, 
 Cluster c: bare earth
 
-  &lt;img src="images/cluster_example.png" height="250px"/&gt;
+  &lt;img src="images/cluster_example.png" height="300px"/&gt;
   Cluster_example
   
 ]

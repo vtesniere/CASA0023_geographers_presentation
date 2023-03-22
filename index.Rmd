@@ -69,7 +69,7 @@ library(fontawesome)
 ## An analysis of urban structuring and administrative division adjustments using remotely sensed data
 
 
-`r fa("location-dot", fill = "black")` [<span style="color: black">**Department of Geography**</span>](https://www.geog.ucl.ac.uk/) .my-style[&] [<span style="color: black">**Center for Advanced Spatial Analysis**</span>](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
+`r fa("location-dot", fill = "white")` [<span style="color:white;text-shadow: -1px -1px orange, 1px 1px orange">**Department of Geography**</span>](https://www.geog.ucl.ac.uk/) .my-style[&] [<span style="color:white;text-shadow: -1px -1px orange, 1px 1px orange">**Center for Advanced Spatial Analysis**</span>](https://www.ucl.ac.uk/bartlett/casa/) .my-style[UCL]
 
 
 
@@ -157,23 +157,22 @@ Previous social, economic and political changes made Romania vulnerable and inco
 .medium[
   - Voiding previous land use planning laws
 - Failing to replace with adequate new system 
-- Retaining a flawed land use system and create problems
-- fragmentation of society of contesting groups of self-interested citizens ]
+- Retaining a flawed land use system 
+- fragmentation of society into contesting groups of self-interested citizens ]
 (Ianoş, Sorensen and Merciu, 2017) ]
---
+
 .pull-right[
 .orange[Demographic and functional discontinuities: gated communities]
 
+
 ```{r echo=FALSE, out.width='90%', fig.align='center'}
 knitr::include_graphics('images/problems.png')
-
 ```
 ]
 ---
 class: left
 # How can redefining sectorial boundaries improve uQOL?
 .pull-left[
-
 ```{r echo=FALSE, out.height=400, out.width=600, fig.align='left'}
 knitr::include_graphics('https://www.mdpi.com/urbansci/urbansci-02-00073/article_deploy/html/images/urbansci-02-00073-g001.png')
 ```
@@ -257,7 +256,7 @@ background-size: cover
      height="520px"/>
  .small[Bucharest VIIRS evolution: 2014-2022]    
 ---
-class: center
+class: left
 background-size: cover
 # Approach
 ### data
@@ -273,7 +272,7 @@ data1%>%
 ```
 ]
 ---
-# Approach - continued
+# Approach 2
 
 <img src="images/approach.png"
      height="550px"/>
@@ -318,24 +317,18 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 .pull-left[
 
-- It is important to determine the weight of each index, The function is below:
+- We can use NDVI or temperature or Population density index to apply city clustering algorithm (ISODATA algorithm), then generate a cluster map. Based on this, we can know what category a sample point has been classified into, and return back to map. We can determine the boundaries of the city
 
-
-$$I = W_1*NDVI + W_2*NDWI + W_3*NDBI + {...}$$
-
-
-- Based on this composite index, we can generate a cluster map, the input data is index for each sampled point, here, a number of clusters are obtained, with the smallest possible distance within clusters and the largest possible distance between clusters, so that land cover types of land can be distinguished clearly.
-
-- Here is an output example of this model:
-
+-Here is an output example of ISODATA cluster map:
 ]
+
 
 .pull-right[
 
 Cluster a: urban area, Cluster b: water, 
 Cluster c: bare earth
 
-  <img src="images/cluster_example.png" height="250px"/>
+  <img src="images/cluster_example.png" height="300px"/>
   Cluster_example
   
 ]
