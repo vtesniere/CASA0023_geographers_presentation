@@ -7,8 +7,15 @@
 .smallspace{
   line-height: 1.5em;
 }
+
 .space{
   line-height: 2em;
+}
+
+.pull-right-more {
+  float: right;
+  width: 47%;
+  top: 1%;
 }
 
 .bigger{

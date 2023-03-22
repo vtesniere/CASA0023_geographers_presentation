@@ -144,12 +144,12 @@ knitr::include_graphics('https://www.mdpi.com/urbansci/urbansci-02-00073/article
 ]
 
 --
-.pull-right[.medium[.smallspace[
-- A mutually reciprocal relationship between aspects of quality of life and urban spatial structure (Romice et al., 2017)
+.pull-right[ .medium[ 
+- A mutually reciprocal relationship between aspects of quality of life and urban spatial structure (Romice et al., [2017](https://eprints.whiterose.ac.uk/94853/2/14-Romice-Pasino_HandbookQOL%20OCT15.pdf))
 - Revising sectorial boundaries allow appropriate level of planning within the sector, less social conflicts
 - Promote the efficient use of land, public facilities and services inside the boundary
-- ↑ uQOL --> attract more global opportunities, investment --> ↑ higher city economic values
-]]]
+- ↑ uQOL → attract more global opportunities, investment → ↑ higher city economic values
+]]
 ---
 class: left
 background-size: cover
@@ -157,7 +157,7 @@ background-size: cover
 .medium[
 - Revise the current boundaries 
 - Expand urban boundaries to enhance urban functioning, urban quality of life
-```{r echo=FALSE, cache=FALSE,fig.align='center', out.height=200, }
+```{r echo=FALSE, cache=FALSE,fig.align='center', out.height=200 }
 knitr::include_graphics('https://dam-api.bfs.admin.ch/hub/api/dam/assets/1481139/thumbnail?width=555&height=555')
 ```
 .smallcenter[Principles of [Urban Quality of Life](https://www.researchgate.net/figure/Urban-quality-of-life-dimensions-Heptagon-Shape-the-researcher-2012_fig1_257681106) in a neighbourhood]
@@ -167,10 +167,49 @@ knitr::include_graphics('https://dam-api.bfs.admin.ch/hub/api/dam/assets/1481139
   → Long term, sustainable goal to improve urban quality of life 
 ]
 ---
-class: center
-background-size: cover
-### Approach
-- Current approaches
+- Recovery and Resiliency Plan for Romania unlocking funds for the development of the country - [7 Billion Euros unlocked for Climate Specific improvements](https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility/recovery-and-resilience-plan-romania_en)
+- If the communication and implementation of these policies are not efficiently put, **what is the point of having these funds ?**
+
+--
+
+.center[ .medium[**Two Current Appraoches similar to our project which focus on Bucharest**]]
+
+--
+
+.panelset[
+.panel[ .panel-name[Urban Development]
+.space[.pull-left[ 
+- Proposed by [Lazar et al, 2022](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B3-2022/641/2022/isprs-archives-XLIII-B3-2022-641-2022.pdf)
+- Urban Expansion at very high rates
+- Also characterised by uncoordinated urban development
+
+<br/>
+
+.small[
+&emsp;&emsp;&emsp;&emsp;&emsp; Bucharest city evolution by [Lazar et al.](https://www.rtsa.ro/tras/index.php/tras/article/viewFile/589/575) 1985-2022 →]
+]]
+.pull-right-more[
+```{r echo=FALSE, out.width="60%"}
+knitr::include_graphics("images/bucharest_expansion.png")
+```
+]
+]
+.panel[ .panel-name[Proposal for new Bucharest Districts]
+.pull-left[ .space[
+
+- Proposed by [Radu, 2019](https://www.rtsa.ro/tras/index.php/tras/article/viewFile/589/575)
+- Based on the changing the radial-concentric
+- Calls for the revisit of current administrative boundaries and establish multi-core sectors to address discontinuity
+]
+]
+.pull-right-more[
+.small[Bucharest city delimitation by [Radu](https://www.rtsa.ro/tras/index.php/tras/article/viewFile/589/575) in 2017]
+```{r echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/romania_proposed_sectors_radu2019.png")
+```
+]
+]
+]
 ---
 class: center
 background-size: cover
