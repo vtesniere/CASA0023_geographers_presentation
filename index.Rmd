@@ -77,7 +77,7 @@ library(fontawesome)
 
 
 ---
-class: center
+class: left
 background-size: cover
 # Background of Bucharest
 
@@ -101,7 +101,7 @@ background-size: cover
 ---
 class: center, left
 background-size: cover
-# Sector changes in history
+# Sectorial changes in history
 ```{r echo=FALSE, results='asis', out.wodthecho=FALSE}
 xfun::file_string('sector_history.html')
 ```
@@ -110,42 +110,58 @@ xfun::file_string('sector_history.html')
 knitr::include_graphics('images/transformation.png')
 ```
 ---
-class: center, left
-# Why is redefining sector boundaries useful for improving uQOL?
--Previous social, economic and political changes made Romania vulnerable and inconsistent in land use planning legislation
-  → Voiding previous land use planning laws
-  → Failing to replace with adequate new system 
-  → Retaining a flawed land use system and create problems
-  → fragmentation of society of contesting groups of self-interested citizens (Ianoş, Sorensen and Merciu, 2017)
- 
- 
-→in Current sectors  without any regard for actual demography, but just to be equal
-→ did not consider the urban functioning, quality of life 
-→ Current sector boundaries are outdated for the rapid urban expansions a
-
----
-class: center
+class: left
 background-size: cover
-# our aim of the project
-- Change the boundaries
-- expand urban boundaries to enhance urban functioning, quality of life, efficiency
-- what will this contribute: new approach to improve urban planning, 
-- assumption the existing urban planning is changing the boundaries ---> this is new and 
-- provide the current policies in Bucharest(that focus on quality of life through urban planning) and say we want to have a novel approach 
-- healthy cities SDGs
+# Sectorial problems
+.medium[
+Previous social, economic and political changes made Romania vulnerable and inconsistent in land use planning legislation
+]
+.pull-left[
+.medium[
+  - Voiding previous land use planning laws
+- Failing to replace with adequate new system 
+- Retaining a flawed land use system and create problems
+- fragmentation of society of contesting groups of self-interested citizens ]
+(Ianoş, Sorensen and Merciu, 2017)
+]
+--
+.pull-right[]
+.orange[Demographic and functional discontinuities: 'gated communities]
 
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('images/problems.png')
+
+```
+]
 ---
-class: center
+class: left
+# How can redefining sectorial boundaries improve uQOL?
+.pull-left[
+
+```{r echo=FALSE, out.height=400, out.width=600, fig.align='left', fig.cap='Source:https://www.mdpi.com/2413-8851/2/3/73'}
+knitr::include_graphics('https://www.mdpi.com/urbansci/urbansci-02-00073/article_deploy/html/images/urbansci-02-00073-g001.png')
+```
+]
+--
+.pull-right[.medium[
+- A mutually reciprocal relationship between aspects of quality of life and urban spatial structure (Romice et al., 2017)
+- Revising sectorial boundaries allow appropriate level of planning within the sector, less social conflicts
+- Promote the efficient use of land, public facilities and services inside the boundary
+]]
+---
+class: left
 background-size: cover
-#Aim of the project2
-- quality of life
-- examples of how poorly planned cities affect quality of life
-- examples of how good cities planning affect quality of life
-- Remote sensing is not often used for uQOL
-- importance: why quality of life is important, and why district boundaries affect uQOL?
-- picture of the uQOL indicator
-social: social care, healthcare
-econ: 
+# Objectives of the project
+.medium[
+- Revise the current boundaries 
+- Expand urban boundaries to enhance urban functioning, urban quality of life
+```{r echo=FALSE, cache=FALSE,fig.align='center', out.height=200, fig.cap="Source: https://www.researchgate.net/figure/Urban-quality-of-life-dimensions-Heptagon-Shape-the-researcher-2012_fig1_257681106"}
+knitr::include_graphics('https://dam-api.bfs.admin.ch/hub/api/dam/assets/1481139/thumbnail?width=555&height=555')
+```
+- Provide evidence-based suggestions on redefining sector boundaries in Bucharest
+- A top down novel approach to improve urban quality of life through reconstructing sector boundaries
+  → Long term, sustainable goal to improve urban quality of life 
+]
 ---
 class: center
 background-size: cover
