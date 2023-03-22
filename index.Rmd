@@ -318,31 +318,25 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 .pull-left[
 
-- It is important to determine the weight of each index, The function is below:
 
+- We can use land cover type data or NDVI or temperature to apply city clustering algorithm (ISODATA algorithm, an enhanced clustering algorithm), then generate a cluster map.
 
-$$I = W_1*NDVI + W_2*NDWI + W_3*NDBI + {...}$$
+- Based on this, We can know what category a sample point has been divided into, and return back to map, we can determine the boundaries of the city.
 
-
-- Based on this composite index, we can generate a cluster map, the input data is index for each sampled point, here, a number of clusters are obtained, with the smallest possible distance within clusters and the largest possible distance between clusters, so that land cover types of land can be distinguished clearly.
-
-- Here is an output example of this model:
+- Here is an output example of ISODATA cluster map:
 
 ]
 
 .pull-right[
 
-Cluster a: urban area, Cluster b: water, 
-Cluster c: bare earth
 
-  <img src="images/cluster_example.png" height="250px"/>
+  <img src="images/cluster_example.jpg" height="250px"/>
   Cluster_example
   
 ]
 ]
 
 ]
-
 ---
 class: center, middle
 
