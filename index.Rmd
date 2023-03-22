@@ -272,10 +272,10 @@ data1%>%
 ```
 ]
 ---
-# Approach 2
+# Approach - continue
 
 <img src="images/approach.png"
-     height="550px"/>
+     height="520px"/>
  .small[approach]
 ---
 # Workflow
@@ -317,18 +317,19 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 .pull-left[
 
-- We can use NDVI or temperature or Population density index to apply city clustering algorithm (ISODATA algorithm), then generate a cluster map. Based on this, we can know what category a sample point has been classified into, and return back to map. We can determine the boundaries of the city
 
--Here is an output example of ISODATA cluster map:
+- We can use land cover type data or NDVI or temperature to apply city clustering algorithm (ISODATA algorithm, an enhanced clustering algorithm), then generate a cluster map.
+
+- Based on this, We can know what category a sample point has been divided into, and return back to map, we can determine the boundaries of the city.
+
+- Here is an output example of ISODATA cluster map:
+
 ]
-
 
 .pull-right[
 
-Cluster a: urban area, Cluster b: water, 
-Cluster c: bare earth
 
-  <img src="images/cluster_example.png" height="300px"/>
+  <img src="images/cluster_example.jpg" height="250px"/>
   Cluster_example
   
 ]

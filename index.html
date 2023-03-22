@@ -32,7 +32,7 @@
     <script src="libs/tile-view/tile-view.js"></script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x5c71d942d524e46afec0d7487834041","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xee9a90caddc4dc3ab580bd8cc9ccf95","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
     <script src="libs/editable/editable.js"></script>
@@ -321,10 +321,10 @@ Sentinel 5 &lt;/td&gt;
 &lt;/table&gt;
 ]
 ---
-# Approach 2
+# Approach - continue
 
 &lt;img src="images/approach.png"
-     height="550px"/&gt;
+     height="520px"/&gt;
  .small[approach]
 ---
 # Workflow
@@ -362,18 +362,19 @@ Sentinel 5 &lt;/td&gt;
 
 .pull-left[
 
-- We can use NDVI or temperature or Population density index to apply city clustering algorithm (ISODATA algorithm), then generate a cluster map. Based on this, we can know what category a sample point has been classified into, and return back to map. We can determine the boundaries of the city
 
--Here is an output example of ISODATA cluster map:
+- We can use land cover type data or NDVI or temperature to apply city clustering algorithm (ISODATA algorithm, an enhanced clustering algorithm), then generate a cluster map.
+
+- Based on this, We can know what category a sample point has been divided into, and return back to map, we can determine the boundaries of the city.
+
+- Here is an output example of ISODATA cluster map:
+
 ]
-
 
 .pull-right[
 
-Cluster a: urban area, Cluster b: water, 
-Cluster c: bare earth
 
-  &lt;img src="images/cluster_example.png" height="300px"/&gt;
+  &lt;img src="images/cluster_example.jpg" height="250px"/&gt;
   Cluster_example
   
 ]
