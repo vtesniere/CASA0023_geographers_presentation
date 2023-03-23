@@ -161,6 +161,8 @@ Previous social, economic and political changes made Romania vulnerable and inco
 - fragmentation of society into contesting groups of self-interested citizens ]
 (Ianoş, Sorensen and Merciu, 2017) ]
 
+--
+
 .pull-right[
 .orange[Demographic and functional discontinuities: gated communities]
 
@@ -207,7 +209,7 @@ knitr::include_graphics('https://dam-api.bfs.admin.ch/hub/api/dam/assets/1481139
 
 --
 
-.center[ .medium[**Two Current Appraoches similar to our project which focus on Bucharest**]]
+.center[ .medium[**Two Current Approaches similar to our project which focus on Bucharest**]]
 
 --
 
@@ -275,7 +277,7 @@ data1%>%
 
 <img src="images/approach.png"
      height="520px"/>
- .small[approach]
+
 ---
 # Workflow
 
