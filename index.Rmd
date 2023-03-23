@@ -184,7 +184,6 @@ knitr::include_graphics('https://www.mdpi.com/urbansci/urbansci-02-00073/article
 - A mutually reciprocal relationship between aspects of quality of life and urban spatial structure (Romice et al., [2017](https://eprints.whiterose.ac.uk/94853/2/14-Romice-Pasino_HandbookQOL%20OCT15.pdf))
 - Revising sectorial boundaries allow appropriate level of planning within the sector, less social conflicts
 - Promote the efficient use of land, public facilities and services inside the boundary
-- ↑ uQOL → attract more global opportunities, investment → ↑ higher city economic values
 ]]
 ---
 class: left
@@ -423,7 +422,7 @@ background-size: cover
 ]
 ]
 ---
-class: center
+class: left
 background-size: cover
 # Cost Breakdown - Value for money
 
